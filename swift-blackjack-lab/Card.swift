@@ -9,32 +9,25 @@
 import Foundation
 
 class Card {
-    var suit: String
-    var rank: String
-    var cardLabel: String
-    var cardValue: UInt {
-        for item in faceCardValues {
-            if item == self.rank {
-                return 10
-            }
-        }
-        if self.rank == "A" {
-                return 1
-        }
-        
-        if let rank = UInt(rank) {
-            return rank
-        }
-        return 0
-    }
+    let suit: String
+    let rank: String
+    let cardLabel: String
+    var cardValue: UInt = 0
     var description: String { return self.cardLabel }
-    
-    var faceCardValues = ["J","Q","K"]
     
     init (suit: String, rank: String) {
         self.suit = suit
         self.rank = rank
         self.cardLabel = "\(self.suit)\(self.rank)"
+        self.cardValue = getCardValue()
+    }
+    
+    private func getCardValue () -> UInt {
+        switch rank {
+        case "A": return 1
+        case "K", "Q", "J": return 10
+        default: return UInt(rank)!
+        }
     }
     
     func validSuits () -> [String]{
