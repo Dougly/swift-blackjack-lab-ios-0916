@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1145F2D11D9EA92B00EFEA01 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145F2CC1D9EA92B00EFEA01 /* Card.swift */; };
-		1145F2D21D9EA92B00EFEA01 /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145F2CD1D9EA92B00EFEA01 /* Dealer.swift */; };
-		1145F2D31D9EA92B00EFEA01 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145F2CE1D9EA92B00EFEA01 /* Deck.swift */; };
-		1145F2D41D9EA92B00EFEA01 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145F2CF1D9EA92B00EFEA01 /* House.swift */; };
-		1145F2D51D9EA92B00EFEA01 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145F2D01D9EA92B00EFEA01 /* Player.swift */; };
+		11F46A771DA2FA92008B8A97 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F46A721DA2FA92008B8A97 /* Card.swift */; };
+		11F46A781DA2FA92008B8A97 /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F46A731DA2FA92008B8A97 /* Dealer.swift */; };
+		11F46A791DA2FA92008B8A97 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F46A741DA2FA92008B8A97 /* Deck.swift */; };
+		11F46A7A1DA2FA92008B8A97 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F46A751DA2FA92008B8A97 /* House.swift */; };
+		11F46A7B1DA2FA92008B8A97 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F46A761DA2FA92008B8A97 /* Player.swift */; };
 		1B7BC4291D301D6C00454AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BC4281D301D6C00454AAB /* AppDelegate.swift */; };
 		1B7BC42B1D301D6D00454AAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BC42A1D301D6D00454AAB /* ViewController.swift */; };
 		1B7BC42E1D301D6D00454AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7BC42C1D301D6D00454AAB /* Main.storyboard */; };
@@ -38,11 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1145F2CC1D9EA92B00EFEA01 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = "../../OldBlackJack/swift-blackjack-lab-ios-0916/swift-blackjack-lab/Card.swift"; sourceTree = "<group>"; };
-		1145F2CD1D9EA92B00EFEA01 /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dealer.swift; path = "../../OldBlackJack/swift-blackjack-lab-ios-0916/swift-blackjack-lab/Dealer.swift"; sourceTree = "<group>"; };
-		1145F2CE1D9EA92B00EFEA01 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = "../../OldBlackJack/swift-blackjack-lab-ios-0916/swift-blackjack-lab/Deck.swift"; sourceTree = "<group>"; };
-		1145F2CF1D9EA92B00EFEA01 /* House.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = House.swift; path = "../../OldBlackJack/swift-blackjack-lab-ios-0916/swift-blackjack-lab/House.swift"; sourceTree = "<group>"; };
-		1145F2D01D9EA92B00EFEA01 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "../../OldBlackJack/swift-blackjack-lab-ios-0916/swift-blackjack-lab/Player.swift"; sourceTree = "<group>"; };
+		11F46A721DA2FA92008B8A97 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		11F46A731DA2FA92008B8A97 /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
+		11F46A741DA2FA92008B8A97 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		11F46A751DA2FA92008B8A97 /* House.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		11F46A761DA2FA92008B8A97 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		1B7BC4251D301D6C00454AAB /* swift-blackjack-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-blackjack-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7BC4281D301D6C00454AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B7BC42A1D301D6D00454AAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,12 +109,12 @@
 		1B7BC4271D301D6C00454AAB /* swift-blackjack-lab */ = {
 			isa = PBXGroup;
 			children = (
-				1145F2CC1D9EA92B00EFEA01 /* Card.swift */,
-				1145F2CD1D9EA92B00EFEA01 /* Dealer.swift */,
-				1145F2CE1D9EA92B00EFEA01 /* Deck.swift */,
-				1145F2CF1D9EA92B00EFEA01 /* House.swift */,
-				1145F2D01D9EA92B00EFEA01 /* Player.swift */,
 				1B7BC4281D301D6C00454AAB /* AppDelegate.swift */,
+				11F46A721DA2FA92008B8A97 /* Card.swift */,
+				11F46A731DA2FA92008B8A97 /* Dealer.swift */,
+				11F46A741DA2FA92008B8A97 /* Deck.swift */,
+				11F46A751DA2FA92008B8A97 /* House.swift */,
+				11F46A761DA2FA92008B8A97 /* Player.swift */,
 				1B7BC42A1D301D6D00454AAB /* ViewController.swift */,
 				1B7BC42C1D301D6D00454AAB /* Main.storyboard */,
 				1B7BC42F1D301D6D00454AAB /* Assets.xcassets */,
@@ -360,12 +360,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1145F2D21D9EA92B00EFEA01 /* Dealer.swift in Sources */,
+				11F46A771DA2FA92008B8A97 /* Card.swift in Sources */,
 				1B7BC42B1D301D6D00454AAB /* ViewController.swift in Sources */,
-				1145F2D31D9EA92B00EFEA01 /* Deck.swift in Sources */,
-				1145F2D11D9EA92B00EFEA01 /* Card.swift in Sources */,
-				1145F2D51D9EA92B00EFEA01 /* Player.swift in Sources */,
-				1145F2D41D9EA92B00EFEA01 /* House.swift in Sources */,
+				11F46A7B1DA2FA92008B8A97 /* Player.swift in Sources */,
+				11F46A781DA2FA92008B8A97 /* Dealer.swift in Sources */,
+				11F46A791DA2FA92008B8A97 /* Deck.swift in Sources */,
+				11F46A7A1DA2FA92008B8A97 /* House.swift in Sources */,
 				1B7BC4291D301D6C00454AAB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

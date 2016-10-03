@@ -1,6 +1,12 @@
-//: Playground - noun: a place where people can play
+//
+//  Card.swift
+//  swift-blackjack-lab
+//
+//  Created by Douglas Galante on 9/28/16.
+//  Copyright © 2016 Flatiron School. All rights reserved.
+//
 
-import UIKit
+import Foundation
 
 class Card {
     var suit: String
@@ -13,7 +19,7 @@ class Card {
             }
         }
         if self.rank == "A" {
-            return 1
+                return 1
         }
         
         if let rank = UInt(rank) {
@@ -33,7 +39,7 @@ class Card {
     
     func validSuits () -> [String]{
         return ["♣︎","♦︎","♥︎","♠︎"]
-    }
+        }
     
     func validRanks () -> [String] {
         var allRanks: [String] = ["A", "J", "Q", "K"]
@@ -42,14 +48,6 @@ class Card {
         }
         return allRanks
     }
-}
-
-func printArrayValues (array: [Card]) {
-    var stringToPrint = ""
-    for card in array {
-        stringToPrint.append("\(card.cardLabel) ")
-    }
-    print(stringToPrint)
 }
 
 func descriptionFor (cardArray cards: [Card]) -> String {
@@ -69,14 +67,12 @@ func descriptionFor (cardArray cards: [Card]) -> String {
                 unsortedArray.append(card)
             }
         }
-        //printArrayValues(array: unsortedArray)
         //checks for rank in order of A-K and adds card to sorted array
         for rank in ranks {
             for card in unsortedArray {
                 if card.rank == rank && card.suit == suit {
                     sortedArray.append(card)
                 }
-            //printArrayValues(array: sortedArray)
             }
         }
         //adds cards in order to string. If it is the last card in the array it starts a new line
@@ -90,23 +86,4 @@ func descriptionFor (cardArray cards: [Card]) -> String {
     }
     return sortedString
 }
-
-//"♣︎","♦︎","♥︎","♠︎"
-var card1 = Card(suit: "♣︎", rank: "2")
-var card2 = Card(suit: "♣︎", rank: "K")
-var card3 = Card(suit: "♣︎", rank: "10")
-var card4 = Card(suit: "♦︎", rank: "3")
-var card5 = Card(suit: "♦︎", rank: "Q")
-var card6 = Card(suit: "♦︎", rank: "K")
-var card7 = Card(suit: "♥︎", rank: "A")
-var card8 = Card(suit: "♥︎", rank: "K")
-var card9 = Card(suit: "♥︎", rank: "7")
-var card10 = Card(suit: "♥︎", rank: "2")
-var card11 = Card(suit: "♠︎", rank: "K")
-var card12 = Card(suit: "♠︎", rank: "J")
-var myCardArray: [Card] = [card1, card2, card3, card4, card5, card6, card7, card8, card9, card10, card11, card12]
-
-print(descriptionFor(cardArray: myCardArray))
-
-
 

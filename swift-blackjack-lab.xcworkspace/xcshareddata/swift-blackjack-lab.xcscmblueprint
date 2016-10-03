@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B789442C795CDDC3F994717BB77D1D3361A0D32C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B789442C795CDDC3F994717BB77D1D3361A0D32C" : 9223372036854775807,
+    "24954D5596041A0AF25B56404F99E9657A303134" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "83411E82-35E1-4F3E-A280-29304FDFE596",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B789442C795CDDC3F994717BB77D1D3361A0D32C" : "swift-blackjack-lab-ios-0916\/",
+    "24954D5596041A0AF25B56404F99E9657A303134" : "swift-classesAll-lab-ios-0916\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "swift-blackjack-lab",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "swift-blackjack-lab.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Dougly\/swift-classesAll-lab-ios-0916.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "24954D5596041A0AF25B56404F99E9657A303134"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Dougly\/swift-blackjack-lab-ios-0916.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B789442C795CDDC3F994717BB77D1D3361A0D32C"
+    }
+  ]
+}
